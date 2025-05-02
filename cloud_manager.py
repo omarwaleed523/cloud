@@ -411,7 +411,7 @@ class CloudManagerGUI:
         self.disk_combo = ttk.Combobox(right_frame, textvariable=self.vm_disk_var)
         self.disk_combo.grid(row=3, column=1, sticky=tk.EW, padx=5, pady=5)
         
-        ttk.Label(right_frame, text="Boot ISO (optional):").grid(row=4, column=0, sticky=tk.W, padx=5, pady=5)
+        ttk.Label(right_frame, text="Boot ISO :").grid(row=4, column=0, sticky=tk.W, padx=5, pady=5)
         self.vm_iso_var = tk.StringVar()
         self.iso_combo = ttk.Combobox(right_frame, textvariable=self.vm_iso_var)
         self.iso_combo.grid(row=4, column=1, sticky=tk.EW, padx=5, pady=5)
